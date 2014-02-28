@@ -21,8 +21,5 @@ var
   LetterGrade : char;
   DidYouFail : boolean;
 
-{ Subprogram definitions }
-
 begin
-  { Executable statements }
 end. 
