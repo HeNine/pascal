@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="./lexanal.xsl"?>
+<lexanal>
+<terminal token="PROGRAM" line="1" column="1"/>
+<terminal token="IDENTIFIER" lexeme="TestProgram" line="1" column="9"/>
+<terminal token="LPARENTHESIS" line="1" column="21"/>
+<terminal token="IDENTIFIER" lexeme="FileList" line="1" column="22"/>
+<terminal token="RPARENTHESIS" line="1" column="30"/>
+<terminal token="SEMIC" line="1" column="31"/>
+<terminal token="CONST" line="3" column="1"/>
+<terminal token="IDENTIFIER" lexeme="ACharacter" line="5" column="3"/>
+<terminal token="EQU" line="5" column="14"/>
+<terminal token="CHAR_CONST" lexeme="&#39;a&#39;" line="5" column="16"/>
+<terminal token="SEMIC" line="5" column="19"/>
+<terminal token="IDENTIFIER" lexeme="_aNumber" line="6" column="3"/>
+<terminal token="EQU" line="6" column="12"/>
+<terminal token="INT_CONST" lexeme="2" line="6" column="14"/>
+<terminal token="SEMIC" line="6" column="15"/>
+<terminal token="IDENTIFIER" lexeme="a_2ndNegativeNumber" line="7" column="3"/>
+<terminal token="EQU" line="7" column="23"/>
+<terminal token="INT_CONST" lexeme="-20" line="7" column="25"/>
+<terminal token="SEMIC" line="7" column="28"/>
+<terminal token="IDENTIFIER" lexeme="nothing" line="8" column="3"/>
+<terminal token="EQU" line="8" column="11"/>
+<terminal token="INT_CONST" lexeme="0" line="8" column="13"/>
+<terminal token="SEMIC" line="8" column="14"/>
+<terminal token="IDENTIFIER" lexeme="aBooleanValue" line="9" column="3"/>
+<terminal token="EQU" line="9" column="17"/>
+<terminal token="BOOL_CONST" lexeme="true" line="9" column="19"/>
+<terminal token="SEMIC" line="9" column="23"/>
+<terminal token="IDENTIFIER" lexeme="AnotherBooleanValue" line="10" column="3"/>
+<terminal token="EQU" line="10" column="23"/>
+<terminal token="BOOL_CONST" lexeme="false" line="10" column="25"/>
+<terminal token="SEMIC" line="10" column="30"/>
+<terminal token="BOOL" line="11" column="3"/>
+<terminal token="COLON" line="11" column="11"/>
+<terminal token="IDENTIFIER" lexeme="aTypedBoolean" line="11" column="13"/>
+<terminal token="EQU" line="11" column="27"/>
+<terminal token="BOOL_CONST" lexeme="true" line="11" column="29"/>
+<terminal token="SEMIC" line="11" column="33"/>
+<terminal token="CHAR" line="12" column="3"/>
+<terminal token="COLON" line="12" column="8"/>
+<terminal token="IDENTIFIER" lexeme="aTypedChar" line="12" column="10"/>
+<terminal token="EQU" line="12" column="21"/>
+<terminal token="CHAR_CONST" lexeme="&#39;b&#39;" line="12" column="23"/>
+<terminal token="SEMIC" line="12" column="26"/>
+<terminal token="INT" line="13" column="3"/>
+<terminal token="COLON" line="13" column="11"/>
+<terminal token="IDENTIFIER" lexeme="aTypedInt" line="13" column="13"/>
+<terminal token="EQU" line="13" column="23"/>
+<terminal token="INT_CONST" lexeme="202" line="13" column="25"/>
+<terminal token="SEMIC" line="13" column="28"/>
+<terminal token="TYPE" line="15" column="1"/>
+<terminal token="VAR" line="18" column="1"/>
+<terminal token="IDENTIFIER" lexeme="age" line="20" column="3"/>
+<terminal token="COMMA" line="20" column="6"/>
+<terminal token="IDENTIFIER" lexeme="year" line="20" column="8"/>
+<terminal token="COMMA" line="20" column="12"/>
+<terminal token="IDENTIFIER" lexeme="grade" line="20" column="14"/>
+<terminal token="COLON" line="20" column="20"/>
+<terminal token="INT" line="20" column="22"/>
+<terminal token="SEMIC" line="20" column="29"/>
+<terminal token="IDENTIFIER" lexeme="LetterGrade" line="21" column="3"/>
+<terminal token="COLON" line="21" column="15"/>
+<terminal token="CHAR" line="21" column="17"/>
+<terminal token="SEMIC" line="21" column="21"/>
+<terminal token="IDENTIFIER" lexeme="DidYouFail" line="22" column="3"/>
+<terminal token="COLON" line="22" column="14"/>
+<terminal token="BOOL" line="22" column="16"/>
+<terminal token="SEMIC" line="22" column="23"/>
+<terminal token="BEGIN" line="26" column="1"/>
+<terminal token="END" line="28" column="1"/>
+<terminal token="DOT" line="28" column="4"/>
+</lexanal>

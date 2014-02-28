@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="./lexanal.xsl"?>
+<lexanal>
+<terminal token="PROGRAM" line="1" column="1"/>
+<terminal token="IDENTIFIER" lexeme="TestProgram" line="1" column="9"/>
+<terminal token="LPARENTHESIS" line="1" column="21"/>
+<terminal token="IDENTIFIER" lexeme="Files" line="1" column="22"/>
+<terminal token="RPARENTHESIS" line="1" column="27"/>
+<terminal token="SEMIC" line="1" column="28"/>
+<terminal token="CONST" line="3" column="1"/>
+<terminal token="SEMIC" line="3" column="6"/>
+<terminal token="TYPE" line="5" column="1"/>
+<terminal token="SEMIC" line="5" column="5"/>
+<terminal token="VAR" line="7" column="1"/>
+<terminal token="SEMIC" line="7" column="4"/>
+<terminal token="BEGIN" line="9" column="1"/>
+<terminal token="END" line="10" column="1"/>
+<terminal token="DOT" line="10" column="4"/>
+</lexanal>
