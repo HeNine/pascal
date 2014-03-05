@@ -18,7 +18,8 @@
 <terminal token="SEMIC" line="6" column="15"/>
 <terminal token="IDENTIFIER" lexeme="a_2ndNegativeNumber" line="7" column="3"/>
 <terminal token="EQU" line="7" column="23"/>
-<terminal token="INT_CONST" lexeme="-20" line="7" column="25"/>
+<terminal token="SUB" line="7" column="25"/>
+<terminal token="INT_CONST" lexeme="20" line="7" column="25"/>
 <terminal token="SEMIC" line="7" column="28"/>
 <terminal token="IDENTIFIER" lexeme="nothing" line="8" column="3"/>
 <terminal token="EQU" line="8" column="11"/>
