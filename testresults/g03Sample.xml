@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="./lexanal.xsl"?>
+<lexanal>
+<terminal token="AND" line="1" column="1"/>
+<terminal token="ARRAY" line="2" column="1"/>
+<terminal token="IDENTIFIER" lexeme="asm" line="3" column="1"/>
+<terminal token="BEGIN" line="4" column="1"/>
+<terminal token="IDENTIFIER" lexeme="break" line="5" column="1"/>
+<terminal token="IDENTIFIER" lexeme="case" line="6" column="1"/>
+<terminal token="CONST" line="7" column="1"/>
+<terminal token="IDENTIFIER" lexeme="constructor" line="8" column="1"/>
+<terminal token="IDENTIFIER" lexeme="continue" line="9" column="1"/>
+<terminal token="IDENTIFIER" lexeme="destructor" line="10" column="1"/>
+<terminal token="DIV" line="11" column="1"/>
+<terminal token="DO" line="12" column="1"/>
+<terminal token="IDENTIFIER" lexeme="downto" line="13" column="1"/>
+<terminal token="ELSE" line="14" column="1"/>
+<terminal token="END" line="15" column="1"/>
+<terminal token="BOOL_CONST" lexeme="false" line="16" column="1"/>
+<terminal token="IDENTIFIER" lexeme="file" line="17" column="1"/>
+<terminal token="FOR" line="18" column="1"/>
+<terminal token="FUNCTION" line="19" column="1"/>
+<terminal token="IDENTIFIER" lexeme="goto" line="20" column="1"/>
+<terminal token="IF" line="21" column="1"/>
+<terminal token="IDENTIFIER" lexeme="implementation" line="22" column="1"/>
+<terminal token="IDENTIFIER" lexeme="in" line="23" column="1"/>
+<terminal token="IDENTIFIER" lexeme="inline" line="24" column="1"/>
+<terminal token="IDENTIFIER" lexeme="interface" line="25" column="1"/>
+<terminal token="IDENTIFIER" lexeme="label" line="26" column="1"/>
+<terminal token="IDENTIFIER" lexeme="mod" line="27" column="1"/>
+<terminal token="NIL" line="28" column="1"/>
+<terminal token="NOT" line="29" column="1"/>
+<terminal token="IDENTIFIER" lexeme="object" line="30" column="1"/>
+<terminal token="OF" line="31" column="1"/>
+<terminal token="IDENTIFIER" lexeme="on" line="32" column="1"/>
+<terminal token="IDENTIFIER" lexeme="operator" line="33" column="1"/>
+<terminal token="OR" line="34" column="1"/>
+<terminal token="IDENTIFIER" lexeme="packed" line="35" column="1"/>
+<terminal token="PROCEDURE" line="36" column="1"/>
+<terminal token="PROGRAM" line="37" column="1"/>
+<terminal token="RECORD" line="38" column="1"/>
+<terminal token="IDENTIFIER" lexeme="repeat" line="39" column="1"/>
+<terminal token="IDENTIFIER" lexeme="set" line="40" column="1"/>
+<terminal token="IDENTIFIER" lexeme="shl" line="41" column="1"/>
+<terminal token="IDENTIFIER" lexeme="shr" line="42" column="1"/>
+<terminal token="IDENTIFIER" lexeme="string" line="43" column="1"/>
+<terminal token="THEN" line="44" column="1"/>
+<terminal token="TO" line="45" column="1"/>
+<terminal token="BOOL_CONST" lexeme="true" line="46" column="1"/>
+<terminal token="TYPE" line="47" column="1"/>
+<terminal token="IDENTIFIER" lexeme="unit" line="48" column="1"/>
+<terminal token="IDENTIFIER" lexeme="until" line="49" column="1"/>
+<terminal token="IDENTIFIER" lexeme="uses" line="50" column="1"/>
+<terminal token="VAR" line="51" column="1"/>
+<terminal token="WHILE" line="52" column="1"/>
+<terminal token="IDENTIFIER" lexeme="with" line="53" column="1"/>
+<terminal token="IDENTIFIER" lexeme="xor" line="54" column="1"/>
+</lexanal>

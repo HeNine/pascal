@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="./lexanal.xsl"?>
+<lexanal>
+<terminal token="PROGRAM" line="1" column="1"/>
+<terminal token="IDENTIFIER" lexeme="HelloWorld" line="1" column="9"/>
+<terminal token="SEMIC" line="1" column="19"/>
+<terminal token="BEGIN" line="4" column="1"/>
+<terminal token="IDENTIFIER" lexeme="writeln" line="5" column="4"/>
+<terminal token="LPARENTHESIS" line="5" column="11"/>
+<terminal token="CHAR_CONST" lexeme="&#39;a&#39;" line="5" column="12"/>
+<terminal token="RPARENTHESIS" line="5" column="15"/>
+<terminal token="SEMIC" line="5" column="16"/>
+<terminal token="IDENTIFIER" lexeme="readkey" line="6" column="4"/>
+<terminal token="SEMIC" line="6" column="11"/>
+<terminal token="END" line="7" column="1"/>
+<terminal token="DOT" line="7" column="4"/>
+</lexanal>

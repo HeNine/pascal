@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="./lexanal.xsl"?>
+<lexanal>
+<terminal token="IDENTIFIER" lexeme="a" line="1" column="1"/>
+<terminal token="ASSIGN" line="1" column="3"/>
+<terminal token="ADD" line="1" column="3"/>
+<terminal token="INT_CONST" lexeme="3" line="1" column="3"/>
+<terminal token="SEMIC" line="1" column="16"/>
+</lexanal>

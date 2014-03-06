@@ -18,6 +18,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Rule;
 import org.junit.Test;
+import org.junit.contrib.java.lang.system.ExpectedSystemExit;
 import org.junit.rules.TestName;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
@@ -29,7 +30,7 @@ import compiler.report.Report;
 import compiler.report.XML;
 import compiler.synanal.PascalTok;
 
-public class BasicTests {
+public class LexerTests {
 
 	public static String[] pascalTermNames;
 
@@ -49,7 +50,9 @@ public class BasicTests {
 	}
 
 	@Rule
-	public TestName testName = new TestName();
+	public final TestName testName = new TestName();
+	@Rule
+	public final ExpectedSystemExit exit = ExpectedSystemExit.none();
 
 	private FileReader srcFile;
 	private PrintStream xml;
@@ -85,7 +88,52 @@ public class BasicTests {
 		doTest();
 	}
 
-	private void doTest() {
+	@Test
+	public void CommentTest() {
+		doTest();
+	}
+
+	@Test
+	public void InvalidCommentClose() {
+		doFailTest();
+	}
+
+	@Test
+	public void g01() {
+		doTest();
+	}
+
+	@Test
+	public void g02() {
+		doTest();
+	}
+
+	@Test
+	public void g03() {
+		doTest();
+	}
+
+	@Test
+	public void g04() {
+		doTest();
+	}
+
+	@Test
+	public void b01() {
+		doFailTest();
+	}
+
+	@Test
+	public void b02() {
+		doFailTest();
+	}
+
+	@Test
+	public void b03() {
+		doFailTest();
+	}
+
+	private void lex() {
 		PascalLex lexer = new PascalLex(srcFile);
 		PascalSym symbol;
 		try {
@@ -102,7 +150,16 @@ public class BasicTests {
 		} catch (IOException _) {
 		}
 
+	}
+
+	private void doTest() {
+		lex();
 		assertTrue(compareXml());
+	}
+
+	private void doFailTest() {
+		exit.expectSystemExitWithStatus(1);
+		lex();
 	}
 
 	private boolean compareXml() {
