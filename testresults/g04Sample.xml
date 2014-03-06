@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="./lexanal.xsl"?>
+<lexanal>
+<terminal token="IDENTIFIER" lexeme="Tale" line="1" column="1"/>
+<terminal token="IDENTIFIER" lexeme="datoteka" line="1" column="6"/>
+<terminal token="IDENTIFIER" lexeme="vsebuje" line="2" column="14"/>
+<terminal token="IDENTIFIER" lexeme="gnezdene" line="5" column="1"/>
+<terminal token="IDENTIFIER" lexeme="komentarje" line="5" column="10"/>
+<terminal token="COMMA" line="5" column="20"/>
+<terminal token="IDENTIFIER" lexeme="ki" line="5" column="22"/>
+<terminal token="IDENTIFIER" lexeme="bi" line="6" column="10"/>
+<terminal token="IDENTIFIER" lexeme="lahko" line="6" column="13"/>
+<terminal token="IDENTIFIER" lexeme="zmedli" line="6" column="19"/>
+<terminal token="IDENTIFIER" lexeme="prevajalnik" line="7" column="1"/>
+<terminal token="DOT" line="7" column="12"/>
+</lexanal>
